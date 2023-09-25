@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Fredoka:wght@300;400&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,100;0,500;1,100;1,400;1,900&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Fredoka:wght@300;400&family=Griffy&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,100;0,500;1,100;1,400;1,900&family=Rubik+Moonrocks&display=swap');
+body{
+    background-color: #222F5B;
+}
+
+div.Harry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 65vh;
+}
+.Title{
+    font-family: 'Griffy', 'cursive';
+    text-align: center;
+}
+.paragraph{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
