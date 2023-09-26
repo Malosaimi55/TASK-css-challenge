@@ -1,23 +1,59 @@
-/* Add your code in each class */
+/* Add your code in each class*/
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Fredoka:wght@300;400&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,100;0,500;1,100;1,400;1,900&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Fredoka:wght@300;400&family=Griffy&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,100;0,500;1,100;1,400;1,900&family=Rubik+Moonrocks&display=swap');
+
 body {
+  background-color: #222F5B;
+  height: 100vh;
 }
 .container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content:center;
+  flex-direction:column;
+  
 }
 .movie-card {
+  display:flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content:center;
+  position: relative;
+  width: 250px;
+  height: 374.1px;
 }
 .movie-image {
+  width: 250px;
+  /* position: absolute; */
 }
 .movie-details-container {
+  display:flex;
+  color: white;
+  width: 100px;
+  height: 100px;
+  flex-direction: column;
+  left: 0;
 }
 .descriptions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.movie-title{
+    font-family: 'Griffy', 'cursive';
+}
+.movie title p{
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /*A gift from us!*/
-.movie-shadow {
+/* .movie-shadow { */
   /*
     This gradient was made by this website https://cssgradient.io/
 */
-  position: absolute;
+  /* position: absolute;
   height: 100%;
   width: 100%;
   background: rgb(0, 0, 0);
@@ -28,4 +64,8 @@ body {
   );
 }
 .movie-title {
-}
+} */  
+
+
+
+
